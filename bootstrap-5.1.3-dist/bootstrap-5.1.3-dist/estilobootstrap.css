@@ -13,6 +13,8 @@
 header{
     font-family: Roboto;
     font-weight: bold;
+    border-bottom: 2.5px solid #f61e1e ;
+    height: 5.5em;
 }
 .logo{
     height: 2.5em;
@@ -22,18 +24,31 @@ header{
 }
 .img_logo{
     height: 2.5em;
+    margin-top: .2em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.ul_navbar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.2em;
+}
+.ul_navbar li{
+    list-style-type: none;
+    background-color: whitesmoke;
+    border-radius: .5em;
+    padding: .2em 2em;
+    color: black;
+    text-align: center;
+    margin: 0em 1em;
 }
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border-bottom: 2.5px solid #f61e1e ;
 }
-.ul_navbar{
-    list-style-type: none;
-    background-color: whitesmoke;
-    border-radius: .5em;
-    padding: .2em 2em .2em 2em;
-    color: black;
-    text-align: center;
+.ul_navbar li:hover{
+    background-image: linear-gradient(to bottom right, white, red);
 }
