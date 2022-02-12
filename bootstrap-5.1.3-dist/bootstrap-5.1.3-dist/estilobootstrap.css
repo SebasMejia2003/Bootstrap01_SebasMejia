@@ -16,11 +16,9 @@ header{
     font-family: Roboto;
     font-weight: 600;
 }
-nav a{
-    color: black;
-}
 span:hover{
-    background-color: rgb(199, 199, 199);
+    color: black;
+    background-image: linear-gradient(to bottom right, white, red);
 }
         /* MAIN ESTILOS GENERALES */
 main{
@@ -31,6 +29,9 @@ main{
 }
 .boton:hover{
     background-color: #BB3F3F;
+}
+nav a{
+    color: black;
 }
 /* header{
     font-family: Roboto;
@@ -93,18 +94,24 @@ main{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        margin: .5em;
+        margin: .3em;
         background-color: whitesmoke;
-        padding: .2em;
+        padding: .1em;
         border-radius: .5em;
         text-align: center;
+        width: 95%;
     }
+    nav{
+        margin-left: 4%;
+    }
+
+    
 }
 /* TABLET */
 
 /* DESKTOP */
-@media (min-width: 1025px){
+/* @media (min-width: 1025px){
 .img-fluid{
     
 }
-}
+} */
