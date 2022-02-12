@@ -10,13 +10,35 @@
     font-family: montserrat;
     src: url("./estiloLetras/Montserrat/static/Montserrat-Medium.ttf")
 }
+/* ESTILOS GENERALES */
 header{
+    border-bottom: 2.5px solid #f61e1e ;
+    font-family: Roboto;
+    font-weight: 600;
+}
+nav a{
+    color: black;
+}
+span:hover{
+    background-color: rgb(199, 199, 199);
+}
+        /* MAIN ESTILOS GENERALES */
+main{
+    font-family: Roboto;
+}
+.titulo_TD{
+    font-weight: bold;
+}
+.boton:hover{
+    background-color: #BB3F3F;
+}
+/* header{
     font-family: Roboto;
     font-weight: bold;
     border-bottom: 2.5px solid #f61e1e ;
     height: 5.5em;
-}
-.logo{
+} */
+/* .logo{
     height: 2.5em;
     display: flex;
     flex-direction: row;
@@ -39,7 +61,7 @@ header{
     list-style-type: none;
     background-color: whitesmoke;
     border-radius: .5em;
-    padding: .2em 2em;
+    padding: .1em 1.5em;
     color: black;
     text-align: center;
     margin: 0em 1em;
@@ -51,4 +73,38 @@ header{
 }
 .ul_navbar li:hover{
     background-image: linear-gradient(to bottom right, white, red);
+} */
+/* SMARTPHONE */
+@media (max-width:530px){
+    .img_logo {
+        height: 25px;
+        margin: .2em;
+        justify-content: center;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+                                /* menú */
+    span{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: .5em;
+        background-color: whitesmoke;
+        padding: .2em;
+        border-radius: .5em;
+        text-align: center;
+    }
+}
+/* TABLET */
+
+/* DESKTOP */
+@media (min-width: 1025px){
+.img-fluid{
+    
+}
 }
