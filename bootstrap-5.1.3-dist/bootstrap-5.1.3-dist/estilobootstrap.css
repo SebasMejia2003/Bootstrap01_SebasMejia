@@ -63,17 +63,16 @@ footer p{
         justify-content: center;
     }
                                 /* menú */
-    span{
+    #span_bar{
         display:flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        margin: .3em;
+        margin: .5em;
         background-color: whitesmoke;
-        padding: .1em;
+        padding: .2em;
         border-radius: .5em;
         text-align: center;
-        width: 95%;
     }
     nav{
         margin-left: 4%;
