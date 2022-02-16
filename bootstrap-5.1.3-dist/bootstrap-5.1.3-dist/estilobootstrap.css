@@ -42,8 +42,66 @@ nav a{
 .boton:hover{
     background-color: #BB3F3F;
 }
+.form{
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 1em;
+    padding-top: 3.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 10.5em;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: .2em;
+}
+.form_input--message{
+    resize: none;
+    padding-top: 1.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1.8em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: inherit;
+    background-color: #089FE0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+#form_contacto{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    min-height: 80vh;
+}
+
+/* FOOTER */
+
 footer {
-    background-color:rgb(228, 228, 228);
     margin-top: .5em;
 }
 footer p{
@@ -63,7 +121,7 @@ footer p{
         justify-content: center;
     }
                                 /* menú */
-    .ul_navbar{
+    /* .ul_navbar{
         display:flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -77,7 +135,7 @@ footer p{
     }
     nav{
         margin-left: 4%;
-    }
+    } */
     .container_txtBienvenida{
         display:flex;
         justify-content: center;
@@ -138,7 +196,6 @@ footer p{
         font-family: Roboto;
         font-weight: bold;
         border-bottom: 2.5px solid #f61e1e ;
-        height: 5.5em;
     }
     .logo{
     
@@ -150,7 +207,7 @@ footer p{
         height: 2.5em;
         margin-top: .2em;
     }
-    .navbar{
+    /* .navbar{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -174,7 +231,7 @@ footer p{
     }
     .ul_navbar li:hover{
         background-image: linear-gradient(to bottom right, white, red);
-    }
+    } */
     /* MAIN */
     .container_txtBienvenida{
         display:flex;
@@ -235,7 +292,6 @@ footer p{
         font-family: Roboto;
         font-weight: bold;
         border-bottom: 2.5px solid #f61e1e ;
-        height: 5.5em;
     }
     .logo{
     display: flex;
@@ -246,7 +302,10 @@ footer p{
         height: 2.5em;
         margin-top: .2em;
     }
-    .navbar{
+    .navbar-nav a{
+        color: red;
+    }
+    /* .navbar{
         display: flex;
         flex-direction: row;
     }
@@ -269,7 +328,7 @@ footer p{
     }
     .ul_navbar li:hover{
         background-image: linear-gradient(to bottom right, white, red);
-    }
+    } */
     /* MAIN */
     .container_txtBienvenida{
         display:flex;
@@ -313,5 +372,14 @@ footer p{
     .row{
         margin: 0em .5em;
         text-align: center;
+    }
+    article{
+        background-color: grey;
+        margin: .4em .3em;
+        border-radius: .5em;
+    }
+    h3{
+        background-color:#EB3737;
+        border-radius: .5em;
     }
 }
