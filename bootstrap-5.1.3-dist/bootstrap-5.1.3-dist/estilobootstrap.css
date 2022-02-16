@@ -52,7 +52,7 @@ footer p{
 /* SMARTPHONE */
 @media (max-width:530px){
     .img_logo {
-        height: 25px;
+        height: 2.5em;
         margin: .2em;
         justify-content: center;
     }
@@ -63,7 +63,7 @@ footer p{
         justify-content: center;
     }
                                 /* menú */
-    #span_bar{
+    .ul_navbar{
         display:flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -73,6 +73,7 @@ footer p{
         padding: .2em;
         border-radius: .5em;
         text-align: center;
+        
     }
     nav{
         margin-left: 4%;
@@ -140,7 +141,7 @@ footer p{
         height: 5.5em;
     }
     .logo{
-    height: 2.5em;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -152,6 +153,7 @@ footer p{
     .navbar{
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
     .ul_navbar{
         display: flex;
@@ -236,7 +238,6 @@ footer p{
         height: 5.5em;
     }
     .logo{
-    height: 2.5em;
     display: flex;
     flex-direction: row;
     justify-content: center;
